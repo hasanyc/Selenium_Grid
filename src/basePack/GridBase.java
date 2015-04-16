@@ -37,7 +37,7 @@ public class GridBase {
 			cap.setPlatform(Platform.WINDOWS);
 		}
 		// Remote WebDriver
-		driver = new RemoteWebDriver(new URL ("http://192.168.0.155:4444/wd/hub"), cap); // Local PC - HUB PC
+		driver = new RemoteWebDriver(new URL ("http://localhost:4444/wd/hub"), cap); // Local PC - HUB PC
 		//driver = new RemoteWebDriver(new URL ("http://192.168.0.227:5557/wd/hub"), cap);
 
 
