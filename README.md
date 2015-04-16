@@ -23,7 +23,8 @@ java -jar selenium-server-standalone-2.45.0.jar -role webdriver -hub http://IP F
 
 
 Cross-browser
-==========================r
+==========================
+
 -Dwebdriver.chrome.driver
 -Dwebdriver.ie.driver
 
