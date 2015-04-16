@@ -2,7 +2,6 @@ package basePack;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -48,18 +47,5 @@ public class GridBase {
 		driver.close();
 		driver.quit();
 	}
-	
-//	@DataProvider(parallel=true, name="dataProvider")
-//	public Object[][] getData() {
-//		
-//		Object data[][] = new Object[2][1];
-//		// row 1
-//		data[0][0]="chrome";
-//		// row 2
-//		data[1][0]="firefox";
-//				
-//		return data;
-//		
-//	}
-	
+
 }
