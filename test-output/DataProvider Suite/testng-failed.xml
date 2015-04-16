@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [DataProvider Suite]" parallel="tests">
+  <test name="Data One Test(failed)" parallel="tests">
+    <classes>
+      <class name="dataProvider.DataOne">
+        <methods>
+          <include name="testDropBoxUsingDataProver"/>
+        </methods>
+      </class> <!-- dataProvider.DataOne -->
+    </classes>
+  </test> <!-- Data One Test(failed) -->
+  <test name="Data Two Test(failed)" parallel="tests">
+    <classes>
+      <class name="dataProvider.DataTwo">
+        <methods>
+          <include name="testGmailUsingDataProver"/>
+        </methods>
+      </class> <!-- dataProvider.DataTwo -->
+    </classes>
+  </test> <!-- Data Two Test(failed) -->
+</suite> <!-- Failed suite [DataProvider Suite] -->
