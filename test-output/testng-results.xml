@@ -1,109 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CR - Chrome Test" duration-ms="21816" started-at="2015-04-15T19:55:01Z" finished-at="2015-04-15T19:55:23Z">
+  <suite name="Default suite" duration-ms="10357" started-at="2015-04-20T16:18:29Z" finished-at="2015-04-20T16:18:40Z">
     <groups>
     </groups>
-    <test name="DropBox Testing using Firefox" duration-ms="13231" started-at="2015-04-15T19:55:01Z" finished-at="2015-04-15T19:55:14Z">
-      <class name="testcases.TestDropBox">
-        <test-method status="PASS" signature="tearUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@7f690630]" name="tearUp" is-config="true" duration-ms="5605" started-at="2015-04-15T15:55:01Z" finished-at="2015-04-15T15:55:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="10357" started-at="2015-04-20T16:18:29Z" finished-at="2015-04-20T16:18:40Z">
+      <class name="testcases.TestingLog4j">
+        <test-method status="PASS" signature="testinTest()[pri:0, instance:testcases.TestingLog4j@43a25848]" name="testinTest" duration-ms="10347" started-at="2015-04-20T12:18:29Z" finished-at="2015-04-20T12:18:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="dropBox()[pri:0, instance:testcases.TestDropBox@7f690630]" name="dropBox" duration-ms="6186" started-at="2015-04-15T15:55:07Z" finished-at="2015-04-15T15:55:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropBox -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testcases.TestDropBox@7f690630]" name="facebookTest" duration-ms="755" started-at="2015-04-15T15:55:13Z" finished-at="2015-04-15T15:55:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestDropBox@7f690630]" name="tearDown" is-config="true" duration-ms="678" started-at="2015-04-15T15:55:14Z" finished-at="2015-04-15T15:55:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TestDropBox -->
-    </test> <!-- DropBox Testing using Firefox -->
-    <test name="Gmail testing using Firefox" duration-ms="13854" started-at="2015-04-15T19:55:01Z" finished-at="2015-04-15T19:55:15Z">
-      <class name="testcases.TestGmail">
-        <test-method status="PASS" signature="tearUp(java.lang.String)[pri:0, instance:testcases.TestGmail@6bf256fa]" name="tearUp" is-config="true" duration-ms="11301" started-at="2015-04-15T15:55:01Z" finished-at="2015-04-15T15:55:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@6bf256fa]" name="gmailTest" duration-ms="2287" started-at="2015-04-15T15:55:12Z" finished-at="2015-04-15T15:55:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@6bf256fa]" name="tearDown" is-config="true" duration-ms="261" started-at="2015-04-15T15:55:15Z" finished-at="2015-04-15T15:55:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TestGmail -->
-    </test> <!-- Gmail testing using Firefox -->
-    <test name="DropBox Testing using Chrome" duration-ms="15342" started-at="2015-04-15T19:55:01Z" finished-at="2015-04-15T19:55:16Z">
-      <class name="testcases.TestDropBox">
-        <test-method status="PASS" signature="tearUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@27f674d]" name="tearUp" is-config="true" duration-ms="4118" started-at="2015-04-15T15:55:01Z" finished-at="2015-04-15T15:55:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="dropBox()[pri:0, instance:testcases.TestDropBox@27f674d]" name="dropBox" duration-ms="7503" started-at="2015-04-15T15:55:05Z" finished-at="2015-04-15T15:55:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropBox -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testcases.TestDropBox@27f674d]" name="facebookTest" duration-ms="1348" started-at="2015-04-15T15:55:13Z" finished-at="2015-04-15T15:55:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestDropBox@27f674d]" name="tearDown" is-config="true" duration-ms="2366" started-at="2015-04-15T15:55:14Z" finished-at="2015-04-15T15:55:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TestDropBox -->
-    </test> <!-- DropBox Testing using Chrome -->
-    <test name="Gmail testing using Chrome" duration-ms="21816" started-at="2015-04-15T19:55:01Z" finished-at="2015-04-15T19:55:23Z">
-      <class name="testcases.TestGmail">
-        <test-method status="PASS" signature="tearUp(java.lang.String)[pri:0, instance:testcases.TestGmail@3796751b]" name="tearUp" is-config="true" duration-ms="16739" started-at="2015-04-15T15:55:01Z" finished-at="2015-04-15T15:55:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@3796751b]" name="gmailTest" duration-ms="2831" started-at="2015-04-15T15:55:18Z" finished-at="2015-04-15T15:55:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@3796751b]" name="tearDown" is-config="true" duration-ms="2241" started-at="2015-04-15T15:55:21Z" finished-at="2015-04-15T15:55:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TestGmail -->
-    </test> <!-- Gmail testing using Chrome -->
-  </suite> <!-- CR - Chrome Test -->
+        </test-method> <!-- testinTest -->
+      </class> <!-- testcases.TestingLog4j -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
