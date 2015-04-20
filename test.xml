@@ -9,14 +9,5 @@
 		</parameter>
 	</test>
 
-	<test name="Gmail testing using Chrome">
-		<parameter name="browser" value="chrome">
-			<classes>
-				<class name="testcases.TestGmail"></class>
-			</classes>
-		</parameter>
-	</test>
-	
-	
 
 </suite>

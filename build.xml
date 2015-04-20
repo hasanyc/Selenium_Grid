@@ -49,7 +49,7 @@
     <!-- compile -->
     <target name="compile" depends="init, clean" > 
 		<delete includeemptydirs="true" quiet="true">
-            <fileset dir="${test.dest}" includes="**/*.java"/>
+            <fileset dir="${test.dest}" includes="**/*"/>
 		</delete>
         <echo message="making directory..."/>
 		<mkdir dir="${test.dest}"/>

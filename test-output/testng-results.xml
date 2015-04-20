@@ -2,39 +2,12 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium Grid Testing" duration-ms="40101" started-at="2015-04-20T20:57:40Z" finished-at="2015-04-20T20:58:20Z">
+  <suite name="Selenium Grid Testing" duration-ms="37779" started-at="2015-04-20T21:03:03Z" finished-at="2015-04-20T21:03:41Z">
     <groups>
     </groups>
-    <test name="Gmail testing using Chrome" duration-ms="15291" started-at="2015-04-20T20:57:40Z" finished-at="2015-04-20T20:57:55Z">
+    <test name="Gmail testing using Firefox" duration-ms="7698" started-at="2015-04-20T21:03:03Z" finished-at="2015-04-20T21:03:11Z">
       <class name="testcases.TestGmail">
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@67b64c45]" name="startUp" is-config="true" duration-ms="12274" started-at="2015-04-20T16:57:40Z" finished-at="2015-04-20T16:57:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@67b64c45]" name="gmailTest" duration-ms="2802" started-at="2015-04-20T16:57:52Z" finished-at="2015-04-20T16:57:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gmailTest -->
-        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestGmail@67b64c45]" name="broseClose" is-config="true" duration-ms="48" started-at="2015-04-20T16:57:55Z" finished-at="2015-04-20T16:57:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@67b64c45]" name="tearDown" is-config="true" duration-ms="158" started-at="2015-04-20T16:57:55Z" finished-at="2015-04-20T16:57:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TestGmail -->
-    </test> <!-- Gmail testing using Chrome -->
-    <test name="Gmail testing using Firefox" duration-ms="28270" started-at="2015-04-20T20:57:40Z" finished-at="2015-04-20T20:58:08Z">
-      <class name="testcases.TestGmail">
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@6cd8737]" name="startUp" is-config="true" duration-ms="25111" started-at="2015-04-20T16:57:40Z" finished-at="2015-04-20T16:58:05Z">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@6cd8737]" name="startUp" is-config="true" duration-ms="5568" started-at="2015-04-20T17:03:03Z" finished-at="2015-04-20T17:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -45,23 +18,50 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@6cd8737]" name="gmailTest" duration-ms="2847" started-at="2015-04-20T16:58:05Z" finished-at="2015-04-20T16:58:08Z">
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@6cd8737]" name="gmailTest" duration-ms="1859" started-at="2015-04-20T17:03:09Z" finished-at="2015-04-20T17:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gmailTest -->
-        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestGmail@6cd8737]" name="broseClose" is-config="true" duration-ms="48" started-at="2015-04-20T16:58:08Z" finished-at="2015-04-20T16:58:08Z">
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestGmail@6cd8737]" name="broseClose" is-config="true" duration-ms="48" started-at="2015-04-20T17:03:10Z" finished-at="2015-04-20T17:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@6cd8737]" name="tearDown" is-config="true" duration-ms="255" started-at="2015-04-20T16:58:08Z" finished-at="2015-04-20T16:58:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@6cd8737]" name="tearDown" is-config="true" duration-ms="214" started-at="2015-04-20T17:03:10Z" finished-at="2015-04-20T17:03:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TestGmail -->
     </test> <!-- Gmail testing using Firefox -->
-    <test name="DropBox Testing using Firefox" duration-ms="36063" started-at="2015-04-20T20:57:40Z" finished-at="2015-04-20T20:58:16Z">
+    <test name="Gmail testing using Chrome" duration-ms="12934" started-at="2015-04-20T21:03:03Z" finished-at="2015-04-20T21:03:16Z">
+      <class name="testcases.TestGmail">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@67b64c45]" name="startUp" is-config="true" duration-ms="10947" started-at="2015-04-20T17:03:03Z" finished-at="2015-04-20T17:03:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@67b64c45]" name="gmailTest" duration-ms="1768" started-at="2015-04-20T17:03:14Z" finished-at="2015-04-20T17:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTest -->
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestGmail@67b64c45]" name="broseClose" is-config="true" duration-ms="50" started-at="2015-04-20T17:03:16Z" finished-at="2015-04-20T17:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broseClose -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@67b64c45]" name="tearDown" is-config="true" duration-ms="162" started-at="2015-04-20T17:03:16Z" finished-at="2015-04-20T17:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestGmail -->
+    </test> <!-- Gmail testing using Chrome -->
+    <test name="DropBox Testing using Firefox" duration-ms="31794" started-at="2015-04-20T21:03:03Z" finished-at="2015-04-20T21:03:35Z">
       <class name="testcases.TestDropBox">
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@edf4efb]" name="startUp" is-config="true" duration-ms="6008" started-at="2015-04-20T16:57:40Z" finished-at="2015-04-20T16:57:46Z">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@edf4efb]" name="startUp" is-config="true" duration-ms="16729" started-at="2015-04-20T17:03:03Z" finished-at="2015-04-20T17:03:20Z">
           <params>
             <param index="0">
               <value>
@@ -72,15 +72,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="dropBox()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="dropBox" duration-ms="5233" started-at="2015-04-20T16:57:46Z" finished-at="2015-04-20T16:57:51Z">
+        <test-method status="PASS" signature="dropBox()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="dropBox" duration-ms="5849" started-at="2015-04-20T17:03:20Z" finished-at="2015-04-20T17:03:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropBox -->
-        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="broseClose" is-config="true" duration-ms="69" started-at="2015-04-20T16:57:51Z" finished-at="2015-04-20T16:57:51Z">
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="broseClose" is-config="true" duration-ms="64" started-at="2015-04-20T17:03:26Z" finished-at="2015-04-20T17:03:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@edf4efb]" name="startUp" is-config="true" duration-ms="22274" started-at="2015-04-20T16:57:51Z" finished-at="2015-04-20T16:58:13Z">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@edf4efb]" name="startUp" is-config="true" duration-ms="6845" started-at="2015-04-20T17:03:26Z" finished-at="2015-04-20T17:03:32Z">
           <params>
             <param index="0">
               <value>
@@ -91,23 +91,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="facebookTest" duration-ms="2244" started-at="2015-04-20T16:58:13Z" finished-at="2015-04-20T16:58:16Z">
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="facebookTest" duration-ms="1784" started-at="2015-04-20T17:03:32Z" finished-at="2015-04-20T17:03:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="broseClose" is-config="true" duration-ms="56" started-at="2015-04-20T16:58:16Z" finished-at="2015-04-20T16:58:16Z">
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="broseClose" is-config="true" duration-ms="283" started-at="2015-04-20T17:03:34Z" finished-at="2015-04-20T17:03:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="tearDown" is-config="true" duration-ms="170" started-at="2015-04-20T16:58:16Z" finished-at="2015-04-20T16:58:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestDropBox@edf4efb]" name="tearDown" is-config="true" duration-ms="233" started-at="2015-04-20T17:03:34Z" finished-at="2015-04-20T17:03:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TestDropBox -->
     </test> <!-- DropBox Testing using Firefox -->
-    <test name="DropBox Testing using Chrome" duration-ms="40101" started-at="2015-04-20T20:57:40Z" finished-at="2015-04-20T20:58:20Z">
+    <test name="DropBox Testing using Chrome" duration-ms="37779" started-at="2015-04-20T21:03:03Z" finished-at="2015-04-20T21:03:41Z">
       <class name="testcases.TestDropBox">
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@58ceff1]" name="startUp" is-config="true" duration-ms="18602" started-at="2015-04-20T16:57:40Z" finished-at="2015-04-20T16:57:58Z">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@58ceff1]" name="startUp" is-config="true" duration-ms="22512" started-at="2015-04-20T17:03:03Z" finished-at="2015-04-20T17:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -118,15 +118,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="dropBox()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="dropBox" duration-ms="5778" started-at="2015-04-20T16:57:58Z" finished-at="2015-04-20T16:58:04Z">
+        <test-method status="PASS" signature="dropBox()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="dropBox" duration-ms="5137" started-at="2015-04-20T17:03:25Z" finished-at="2015-04-20T17:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropBox -->
-        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="broseClose" is-config="true" duration-ms="84" started-at="2015-04-20T16:58:04Z" finished-at="2015-04-20T16:58:04Z">
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="broseClose" is-config="true" duration-ms="70" started-at="2015-04-20T17:03:31Z" finished-at="2015-04-20T17:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@58ceff1]" name="startUp" is-config="true" duration-ms="14335" started-at="2015-04-20T16:58:04Z" finished-at="2015-04-20T16:58:19Z">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestDropBox@58ceff1]" name="startUp" is-config="true" duration-ms="8602" started-at="2015-04-20T17:03:31Z" finished-at="2015-04-20T17:03:39Z">
           <params>
             <param index="0">
               <value>
@@ -137,15 +137,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="facebookTest" duration-ms="1073" started-at="2015-04-20T16:58:19Z" finished-at="2015-04-20T16:58:20Z">
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="facebookTest" duration-ms="1214" started-at="2015-04-20T17:03:39Z" finished-at="2015-04-20T17:03:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="broseClose" is-config="true" duration-ms="55" started-at="2015-04-20T16:58:20Z" finished-at="2015-04-20T16:58:20Z">
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="broseClose" is-config="true" duration-ms="56" started-at="2015-04-20T17:03:40Z" finished-at="2015-04-20T17:03:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="tearDown" is-config="true" duration-ms="166" started-at="2015-04-20T16:58:20Z" finished-at="2015-04-20T16:58:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestDropBox@58ceff1]" name="tearDown" is-config="true" duration-ms="180" started-at="2015-04-20T17:03:41Z" finished-at="2015-04-20T17:03:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
