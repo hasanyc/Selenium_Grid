@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Selenium Grid Testing" verbose="3" parallel="tests">
+<suite name="Selenium Grid Testing" verbose="2" parallel="tests">
 
 	<test name="DropBox Testing using Chrome">
 		<parameter name="browser" value="chrome">

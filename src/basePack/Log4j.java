@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 public class Log4j {
 
 	public static Properties prop;
-	 public static Logger APPLICATION_LOG = Logger.getLogger("devpinoyLogger");
+	 public static Logger APPLICATION_LOG = Logger.getLogger("The Log is: ");
 	 
 	 public static void inIt(){
 	  if(prop ==null){
