@@ -1,10 +1,6 @@
 package basePack;
 
 import java.net.MalformedURLException;
-<<<<<<< HEAD
-=======
-import java.net.URL;
->>>>>>> 16493d2d409f158039a9b8b788524de6d0ce9882
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -40,14 +36,9 @@ public class GridBase {
 			cap.setPlatform(Platform.WINDOWS);
 		}
 		// Remote WebDriver
-<<<<<<< HEAD
 		//driver = new RemoteWebDriver(new URL ("http://192.168.0.155:4444/wd/hub"), cap); // Local PC - HUB PC
 		//driver = new RemoteWebDriver(new URL ("http://192.168.0.227:5557/wd/hub"), cap);
 		driver = new FirefoxDriver();
-=======
-		driver = new RemoteWebDriver(new URL ("http://localhost:4444/wd/hub"), cap); // Local PC - HUB PC
-		//driver = new RemoteWebDriver(new URL ("http://remotePC-IP:NODE-#/wd/hub"), cap);
->>>>>>> 16493d2d409f158039a9b8b788524de6d0ce9882
 
 
 	}
@@ -64,7 +55,6 @@ public class GridBase {
 		driver.quit();
 	}
 
-<<<<<<< HEAD
 	//	@DataProvider(parallel=true, name="dataProvider")
 	//	public Object[][] getData() {
 	//		
@@ -78,6 +68,4 @@ public class GridBase {
 	//		
 	//	}
 
-=======
->>>>>>> 16493d2d409f158039a9b8b788524de6d0ce9882
 }
