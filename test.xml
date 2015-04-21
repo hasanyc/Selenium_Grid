@@ -4,7 +4,7 @@
 	<test name="DropBox Testing using Chrome">
 		<parameter name="browser" value="firefox">
 			<classes>
-				<class name="testcases.TestDropBox"></class>
+				<class name="testcases.TestGmail"></class>
 			</classes>
 		</parameter>
 	</test>

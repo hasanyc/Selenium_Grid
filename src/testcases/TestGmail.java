@@ -1,9 +1,12 @@
 package testcases;
 
 import java.net.MalformedURLException;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+
 import basePack.GridBase;
+import basePack.Log4j;
 
 public class TestGmail extends GridBase {
 
@@ -14,7 +17,9 @@ public class TestGmail extends GridBase {
 		System.out.println ("Gmail e aschilam...tumi kinto dekho nai");
 		driver.findElement(By.id("Email")).sendKeys("test");
 		driver.findElement(By.id("Passwd")).sendKeys("sdaf");
-		//driver.quit();
+		Log4j.APPLICATION_LOG.debug("| My logs is: - TESTING GMAIL");
+		Log4j.APPLICATION_LOG.debug("| Test E-N-D-E-D");
+		
 	}
 
 

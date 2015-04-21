@@ -1,14 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium Grid Testing" verbose="2" parallel="tests">
 
-	<test name="DropBox Testing using Chrome">
-		<parameter name="browser" value="chrome">
-			<classes>
-				<class name="testcases.TestDropBox"></class>
-			</classes>
-		</parameter>
-	</test>
-
 	<test name="Gmail testing using Chrome">
 		<parameter name="browser" value="chrome">
 			<classes>
@@ -16,19 +8,10 @@
 			</classes>
 		</parameter>
 	</test>
-	
-	
-<!-- =============================================================================================================== -->
-				<!-- Firefox Test Cases-->
-<!-- =============================================================================================================== -->
 
-	<test name="DropBox Testing using Firefox">
-		<parameter name="browser" value="firefox">
-			<classes>
-				<class name="testcases.TestDropBox"></class>
-			</classes>
-		</parameter>
-	</test>
+<!-- =============================================================================================================== -->
+						<!-- Firefox Test Cases -->
+<!-- =============================================================================================================== -->
 
 	<test name="Gmail testing using Firefox">
 		<parameter name="browser" value="firefox">

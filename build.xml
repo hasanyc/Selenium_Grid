@@ -15,9 +15,9 @@
   
     <target name="setClassPath" unless="test.classpath">
         <path id="classpath_jars">
+  			<pathelement location="${ws.home}/src"/>
         	<fileset dir="${ws.jars}" includes="*.jar"/>
-        	<pathelement location="${ws.home}/src"/>
-        </path>
+           </path>	
         <pathconvert pathsep=":" 
             property="test.classpath" 
             refid="classpath_jars"/>
@@ -49,7 +49,7 @@
     <!-- compile -->
     <target name="compile" depends="init, clean" > 
 		<delete includeemptydirs="true" quiet="true">
-            <fileset dir="${test.dest}" includes="**/*"/>
+            <fileset dir="${test.dest}" includes="**/*.java"/>
 		</delete>
         <echo message="making directory..."/>
 		<mkdir dir="${test.dest}"/>
