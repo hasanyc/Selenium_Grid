@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Grid Testing">
+
+	<listeners>
+		<listener class-name="learnListener.BaseListener"></listener>
+	</listeners>
+
+	<test name="Test Listener">
+		<classes>
+			<class name="learnListener.TestingListener"></class>
+		</classes>
+	</test>
+
+
+</suite>

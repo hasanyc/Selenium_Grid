@@ -83,5 +83,6 @@
 	<classpathentry kind="lib" path="C:/Users/Hassan/workspace/NewProduct/JAR/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Hassan/workspace/NewProduct/JAR/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hassan/.eclipse/org.eclipse.platform_4.4.1_1709980481_win32_win32_x86_64/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar" sourcepath="C:/Users/Hassan/.eclipse/org.eclipse.platform_4.4.1_1709980481_win32_win32_x86_64/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
