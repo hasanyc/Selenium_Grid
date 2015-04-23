@@ -9,9 +9,8 @@
       <class name="learnListener.TestingListener">
         <methods>
           <include name="tearUP"/>
-          <include name="tryCatch"/>
           <include name="tearDown"/>
-          <include name="failTest"/>
+          <include name="iAmFailing"/>
         </methods>
       </class> <!-- learnListener.TestingListener -->
     </classes>

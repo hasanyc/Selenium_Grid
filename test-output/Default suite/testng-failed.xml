@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="learnListener.TestingListener">
+      <class name="testcases.BeforeTesting">
         <methods>
+          <include name="hasanTest"/>
+          <include name="beforeMethodTest"/>
+          <include name="broseClose"/>
           <include name="tearUP"/>
-          <include name="tearDown"/>
-          <include name="failTest"/>
         </methods>
-      </class> <!-- learnListener.TestingListener -->
+      </class> <!-- testcases.BeforeTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

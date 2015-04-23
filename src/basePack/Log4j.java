@@ -4,10 +4,10 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import org.apache.log4j.Logger;
 
-public class Log4j {
+public class Log4j{
 
 	public static Properties prop;
-	 public static Logger APPLICATION_LOG = Logger.getLogger("devpinoyLogger");
+	 public static Logger APPLICATION_LOG = Logger.getLogger("Automation-Logs");
 	 
 	 public static void inIt(){
 	  if(prop ==null){
@@ -23,5 +23,7 @@ public class Log4j {
 	   }
 	  }
 	   
-	 }
+	   }
+	 
+	 
 }

@@ -1,7 +1,10 @@
 package learnListener;
 
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -23,37 +26,27 @@ public class TestingListener {
 	@BeforeClass
 	public void tearUP () {
 		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+
 	}
 
-
 	@Test (priority = 1)
-	public void testinTest (){
+	public void iAmPassing(){
 		driver.get("http://www.workstride.com");
-		Log4j.APPLICATION_LOG.debug("Test started");
 		System.out.println ("Testing work stide page title");
 		System.out.println (driver.getTitle());
-		Log4j.APPLICATION_LOG.debug("Page Title is: " +driver.getTitle());
-		Log4j.APPLICATION_LOG.debug("Test E-n-d-e-d");		
+
 	}
 
 	@Test ( priority = 2 )
-	public void failTest (){
-		Assert.assertEquals("A", "Y");
-	}
+	public void iAmFailing (){
 
-	@Test (enabled=false )
-	public void testingSkipping (){
-		Assert.assertEquals("skip", "Y");
-	}
-
-	@Test ( priority = 4 )
-	public void tryCatch (){
-		try {
-			Assert.assertEquals("Hasan", "rifa");
-			Log4j.APPLICATION_LOG.debug("tryCatch test is passed");
-		}catch (Throwable t){
-			Log4j.APPLICATION_LOG.debug("tryCatch Test failed and error is: ==>> " + t);
-			ErrorUtil.addVerificationFailure(t);
+		try{
+			Assert.assertEquals("A", "Y");
+			Log4j.APPLICATION_LOG.debug("iAmFailing Test  Method Passed");
+		} catch (NoSuchElementException e){
+			Assert.assertEquals("A", "Y");
+			Log4j.APPLICATION_LOG.debug("iAmFailing Test  Method failed" + e);
 		}
 	}
 
