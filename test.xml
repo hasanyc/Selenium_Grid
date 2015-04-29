@@ -1,13 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium Grid Testing">
 
-	<test name="DropBox Testing using Chrome">
-		<parameter name="browser" value="firefox">
+	<test name="Test Drop Box Class">
 			<classes>
-				<class name="testcases.TestGmail"></class>
+				<class name="testcases.TestDropBox"></class>
 			</classes>
-		</parameter>
-	</test>
+		</test>
+
 
 
 </suite>

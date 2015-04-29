@@ -18,23 +18,23 @@
                <b>Selenium Grid Testing</b>
             </td>
             <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">0</div>
+               <div style="width: 50px;">1</div>
             </td>
             <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">2</div>
+               <div style="width: 50px;">4</div>
             </td>
             <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
                <div style="width: 50px;">0</div>
             </td>
             <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
-               <div style="width: 50px;">2</div>
+               <div style="width: 50px;">5</div>
             </td>
             <td align="center"
                 style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
-               <div style="width: 50px;">100%</div>
+               <div style="width: 50px;">80%</div>
             </td>
             <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
-                nowrap="true">19s
+                nowrap="true">28s
                
             </td>
          </tr>
@@ -89,13 +89,91 @@
                <td nowrap="true">Duration</td>
                <td>Exception</td>
             </tr>
-            <tr id="testcases.TestGmail_startUp_byStatus_passed_PASS1_row"
+            <tr id="testcases.BeforeTesting_failingTest_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_failingTest_byStatus_failed_FAIL1_details')">failingTest()</a>
+               </td>
+               <td nowrap="true">20:54:27</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_failingTest_byStatus_failed_FAIL1_exception')">java.lang.AssertionError: 
+                     expected [true] but found [false]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_failingTest_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>failingTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>failingTest()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_failingTest_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [true] but found [false]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:494)
+                        	at org.testng.Assert.assertTrue(Assert.java:42)
+                        	at org.testng.Assert.assertTrue(Assert.java:52)
+                        	at testcases.BeforeTesting.failingTest(BeforeTesting.java:40)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+                        	at org.testng.TestRunner.run(TestRunner.java:617)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+                        	at org.testng.TestNG.run(TestNG.java:1057)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1364)
+                        	at org.testng.TestNG.main(TestNG.java:1333)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testcases.TestDropBox_tearUP_byStatus_passed_PASS1_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_startUp_byStatus_passed_PASS1_details')">startUp(chrome)</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_tearUP_byStatus_passed_PASS1_details')">tearUP()</a>
                </td>
-               <td nowrap="true">11:47:20</td>
-               <td nowrap="true" align="right">7s
+               <td nowrap="true">20:54:04</td>
+               <td nowrap="true" align="right">6s
                   
                </td>
                <td nowrap="true">
@@ -105,200 +183,79 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_startUp_byStatus_passed_PASS1_details"
+                  <div id="testcases.TestDropBox_tearUP_byStatus_passed_PASS1_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>startUp
+                        <b>Name: </b>tearUP
                      </div>
                      <div>
-                        <b>Signature: </b>startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@58ceff1]
+                        <b>Signature: </b>tearUP()[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:04
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_beforeMethodTest_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_beforeMethodTest_byStatus_passed_PASS2_details')">beforeMethodTest(public void testcases.TestDropBox.WorkStride_Test())</a>
+               </td>
+               <td nowrap="true">20:54:11</td>
+               <td nowrap="true" align="right">2 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_beforeMethodTest_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
                         <b>Parameters: </b>
                         
-                        chrome
+                        public void testcases.TestDropBox.WorkStride_Test()
                         
                         
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:20
+                        <b>Start time: </b>20:54:11
                      </div>
                      <div>
-                        <b>End time: </b>11:47:27
+                        <b>End time: </b>20:54:11
                      </div>
                      <div>
-                        <b>Duration: </b>7s
+                        <b>Duration: </b>2 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_gmailTest_byStatus_passed_PASS2_row"
+            <tr id="testcases.TestDropBox_WorkStride_Test_byStatus_passed_PASS3_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_gmailTest_byStatus_passed_PASS2_details')">gmailTest()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_WorkStride_Test_byStatus_passed_PASS3_details')">WorkStride_Test()</a>
                </td>
-               <td nowrap="true">11:47:27</td>
-               <td nowrap="true" align="right">4s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_gmailTest_byStatus_passed_PASS2_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>gmailTest
-                     </div>
-                     <div>
-                        <b>Signature: </b>gmailTest()[pri:0, instance:testcases.TestGmail@58ceff1]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:47:27
-                     </div>
-                     <div>
-                        <b>End time: </b>11:47:31
-                     </div>
-                     <div>
-                        <b>Duration: </b>4s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="testcases.TestGmail_broseClose_byStatus_passed_PASS3_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_broseClose_byStatus_passed_PASS3_details')">broseClose()</a>
-               </td>
-               <td nowrap="true">11:47:31</td>
-               <td nowrap="true" align="right">49 ms
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_broseClose_byStatus_passed_PASS3_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>broseClose
-                     </div>
-                     <div>
-                        <b>Signature: </b>broseClose()[pri:0, instance:testcases.TestGmail@58ceff1]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:47:31
-                     </div>
-                     <div>
-                        <b>End time: </b>11:47:31
-                     </div>
-                     <div>
-                        <b>Duration: </b>49 ms
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="testcases.TestGmail_tearDown_byStatus_passed_PASS4_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_tearDown_byStatus_passed_PASS4_details')">tearDown()</a>
-               </td>
-               <td nowrap="true">11:47:31</td>
-               <td nowrap="true" align="right">171 ms
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_tearDown_byStatus_passed_PASS4_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>tearDown
-                     </div>
-                     <div>
-                        <b>Signature: </b>tearDown()[pri:0, instance:testcases.TestGmail@58ceff1]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:47:31
-                     </div>
-                     <div>
-                        <b>End time: </b>11:47:31
-                     </div>
-                     <div>
-                        <b>Duration: </b>171 ms
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="testcases.TestGmail_startUp_byStatus_passed_PASS5_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_startUp_byStatus_passed_PASS5_details')">startUp(firefox)</a>
-               </td>
-               <td nowrap="true">11:47:20</td>
-               <td nowrap="true" align="right">16s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_startUp_byStatus_passed_PASS5_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>startUp
-                     </div>
-                     <div>
-                        <b>Signature: </b>startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@3796751b]
-                     </div>
-                     <div>
-                        <b>Parameters: </b>
-                        
-                        firefox
-                        
-                        
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:47:20
-                     </div>
-                     <div>
-                        <b>End time: </b>11:47:36
-                     </div>
-                     <div>
-                        <b>Duration: </b>16s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="testcases.TestGmail_gmailTest_byStatus_passed_PASS6_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_gmailTest_byStatus_passed_PASS6_details')">gmailTest()</a>
-               </td>
-               <td nowrap="true">11:47:36</td>
+               <td nowrap="true">20:54:11</td>
                <td nowrap="true" align="right">3s
                   
                </td>
@@ -309,19 +266,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_gmailTest_byStatus_passed_PASS6_details"
+                  <div id="testcases.TestDropBox_WorkStride_Test_byStatus_passed_PASS3_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>gmailTest
+                        <b>Name: </b>WorkStride_Test
                      </div>
                      <div>
-                        <b>Signature: </b>gmailTest()[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>WorkStride_Test()[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:36
+                        <b>Start time: </b>20:54:11
                      </div>
                      <div>
-                        <b>End time: </b>11:47:39
+                        <b>End time: </b>20:54:13
                      </div>
                      <div>
                         <b>Duration: </b>3s
@@ -331,13 +288,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_broseClose_byStatus_passed_PASS7_row"
+            <tr id="testcases.TestDropBox_broseClose_byStatus_passed_PASS4_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_broseClose_byStatus_passed_PASS7_details')">broseClose()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_broseClose_byStatus_passed_PASS4_details')">broseClose(public void testcases.TestDropBox.WorkStride_Test())</a>
                </td>
-               <td nowrap="true">11:47:39</td>
-               <td nowrap="true" align="right">56 ms
+               <td nowrap="true">20:54:13</td>
+               <td nowrap="true" align="right">1 ms
                   
                </td>
                <td nowrap="true">
@@ -347,35 +304,42 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_broseClose_byStatus_passed_PASS7_details"
+                  <div id="testcases.TestDropBox_broseClose_byStatus_passed_PASS4_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>broseClose
                      </div>
                      <div>
-                        <b>Signature: </b>broseClose()[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:39
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.WorkStride_Test()
+                        
+                        
                      </div>
                      <div>
-                        <b>End time: </b>11:47:39
+                        <b>Start time: </b>20:54:13
                      </div>
                      <div>
-                        <b>Duration: </b>56 ms
+                        <b>End time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_tearDown_byStatus_passed_PASS8_row"
+            <tr id="testcases.TestDropBox_beforeMethodTest_byStatus_passed_PASS5_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_tearDown_byStatus_passed_PASS8_details')">tearDown()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_beforeMethodTest_byStatus_passed_PASS5_details')">beforeMethodTest(public void testcases.TestDropBox.facebook_Test())</a>
                </td>
-               <td nowrap="true">11:47:39</td>
-               <td nowrap="true" align="right">211 ms
+               <td nowrap="true">20:54:13</td>
+               <td nowrap="true" align="right">1 ms
                   
                </td>
                <td nowrap="true">
@@ -385,22 +349,610 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_tearDown_byStatus_passed_PASS8_details"
+                  <div id="testcases.TestDropBox_beforeMethodTest_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.facebook_Test()
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_facebook_Test_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_facebook_Test_byStatus_passed_PASS6_details')">facebook_Test()</a>
+               </td>
+               <td nowrap="true">20:54:13</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_facebook_Test_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>facebook_Test
+                     </div>
+                     <div>
+                        <b>Signature: </b>facebook_Test()[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_broseClose_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_broseClose_byStatus_passed_PASS7_details')">broseClose(public void testcases.TestDropBox.facebook_Test())</a>
+               </td>
+               <td nowrap="true">20:54:14</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_broseClose_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.facebook_Test()
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_closeBrowser_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_closeBrowser_byStatus_passed_PASS8_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">20:54:14</td>
+               <td nowrap="true" align="right">169 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_closeBrowser_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>169 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_tearUP_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_tearUP_byStatus_passed_PASS9_details')">tearUP()</a>
+               </td>
+               <td nowrap="true">20:54:15</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_tearUP_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearUP
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearUP()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:15
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS10_details')">beforeMethodTest(public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException)</a>
+               </td>
+               <td nowrap="true">20:54:21</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:21
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_Gmail_Test_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_Gmail_Test_byStatus_passed_PASS11_details')">Gmail_Test()</a>
+               </td>
+               <td nowrap="true">20:54:21</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_Gmail_Test_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>Gmail_Test
+                     </div>
+                     <div>
+                        <b>Signature: </b>Gmail_Test()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:21
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_broseClose_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_broseClose_byStatus_passed_PASS12_details')">broseClose(public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException)</a>
+               </td>
+               <td nowrap="true">20:54:23</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_broseClose_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS13_details')">beforeMethodTest(public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException)</a>
+               </td>
+               <td nowrap="true">20:54:23</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_SpaFinder_Test_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_SpaFinder_Test_byStatus_passed_PASS14_details')">SpaFinder_Test()</a>
+               </td>
+               <td nowrap="true">20:54:23</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_SpaFinder_Test_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>SpaFinder_Test
+                     </div>
+                     <div>
+                        <b>Signature: </b>SpaFinder_Test()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_broseClose_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_broseClose_byStatus_passed_PASS15_details')">broseClose(public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException)</a>
+               </td>
+               <td nowrap="true">20:54:27</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_broseClose_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS16_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS16_details')">beforeMethodTest(public void testcases.BeforeTesting.failingTest() throws java.lang.Exception)</a>
+               </td>
+               <td nowrap="true">20:54:27</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_beforeMethodTest_byStatus_passed_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.failingTest() throws java.lang.Exception
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_closeBrowser_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_closeBrowser_byStatus_passed_PASS17_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">20:54:32</td>
+               <td nowrap="true" align="right">112 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_closeBrowser_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>112 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_broseClose_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_broseClose_byStatus_passed_PASS18_details')">broseClose(public void testcases.BeforeTesting.failingTest() throws java.lang.Exception)</a>
+               </td>
+               <td nowrap="true">20:54:32</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_broseClose_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.failingTest() throws java.lang.Exception
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_tearDown_byStatus_passed_PASS19_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_tearDown_byStatus_passed_PASS19_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">20:54:32</td>
+               <td nowrap="true" align="right">509 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_tearDown_byStatus_passed_PASS19_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>tearDown
                      </div>
                      <div>
-                        <b>Signature: </b>tearDown()[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>tearDown()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:39
+                        <b>Start time: </b>20:54:32
                      </div>
                      <div>
-                        <b>End time: </b>11:47:39
+                        <b>End time: </b>20:54:33
                      </div>
                      <div>
-                        <b>Duration: </b>211 ms
+                        <b>Duration: </b>509 ms
                         
                      </div>
                   </div>
@@ -413,7 +965,7 @@
          <table class="testMethodsTable" cellpadding="0" cellspacing="0">
             <tr>
                <td colspan="4">
-                  <h3 style="display: inline;">testcases.TestGmail</h3>
+                  <h3 style="display: inline;">testcases.BeforeTesting</h3>
                </td>
             </tr>
             <tr class="methodsTableHeader">
@@ -422,13 +974,13 @@
                <td nowrap="true">Duration</td>
                <td>Exception</td>
             </tr>
-            <tr id="testcases.TestGmail_startUp_byClass_PASS1_row"
+            <tr id="testcases.BeforeTesting_tearUP_byClass_PASS1_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_startUp_byClass_PASS1_details')">startUp(chrome)</a>
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_tearUP_byClass_PASS1_details')">tearUP()</a>
                </td>
-               <td nowrap="true">11:47:20</td>
-               <td nowrap="true" align="right">7s
+               <td nowrap="true">20:54:15</td>
+               <td nowrap="true" align="right">6s
                   
                </td>
                <td nowrap="true">
@@ -438,42 +990,80 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_startUp_byClass_PASS1_details"
+                  <div id="testcases.BeforeTesting_tearUP_byClass_PASS1_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>startUp
+                        <b>Name: </b>tearUP
                      </div>
                      <div>
-                        <b>Signature: </b>startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@58ceff1]
+                        <b>Signature: </b>tearUP()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:15
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_beforeMethodTest_byClass_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_beforeMethodTest_byClass_PASS2_details')">beforeMethodTest(public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException)</a>
+               </td>
+               <td nowrap="true">20:54:21</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_beforeMethodTest_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
                      </div>
                      <div>
                         <b>Parameters: </b>
                         
-                        chrome
+                        public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException
                         
                         
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:20
+                        <b>Start time: </b>20:54:21
                      </div>
                      <div>
-                        <b>End time: </b>11:47:27
+                        <b>End time: </b>20:54:21
                      </div>
                      <div>
-                        <b>Duration: </b>7s
+                        <b>Duration: </b>0 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_gmailTest_byClass_PASS2_row"
+            <tr id="testcases.BeforeTesting_Gmail_Test_byClass_PASS3_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_gmailTest_byClass_PASS2_details')">gmailTest()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_Gmail_Test_byClass_PASS3_details')">Gmail_Test()</a>
                </td>
-               <td nowrap="true">11:47:27</td>
-               <td nowrap="true" align="right">4s
+               <td nowrap="true">20:54:21</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -483,35 +1073,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_gmailTest_byClass_PASS2_details"
+                  <div id="testcases.BeforeTesting_Gmail_Test_byClass_PASS3_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>gmailTest
+                        <b>Name: </b>Gmail_Test
                      </div>
                      <div>
-                        <b>Signature: </b>gmailTest()[pri:0, instance:testcases.TestGmail@58ceff1]
+                        <b>Signature: </b>Gmail_Test()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:27
+                        <b>Start time: </b>20:54:21
                      </div>
                      <div>
-                        <b>End time: </b>11:47:31
+                        <b>End time: </b>20:54:23
                      </div>
                      <div>
-                        <b>Duration: </b>4s
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_broseClose_byClass_PASS3_row"
+            <tr id="testcases.BeforeTesting_broseClose_byClass_PASS4_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_broseClose_byClass_PASS3_details')">broseClose()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_broseClose_byClass_PASS4_details')">broseClose(public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException)</a>
                </td>
-               <td nowrap="true">11:47:31</td>
-               <td nowrap="true" align="right">49 ms
+               <td nowrap="true">20:54:23</td>
+               <td nowrap="true" align="right">1 ms
                   
                </td>
                <td nowrap="true">
@@ -521,35 +1111,42 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_broseClose_byClass_PASS3_details"
+                  <div id="testcases.BeforeTesting_broseClose_byClass_PASS4_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>broseClose
                      </div>
                      <div>
-                        <b>Signature: </b>broseClose()[pri:0, instance:testcases.TestGmail@58ceff1]
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:31
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.Gmail_Test() throws java.net.MalformedURLException
+                        
+                        
                      </div>
                      <div>
-                        <b>End time: </b>11:47:31
+                        <b>Start time: </b>20:54:23
                      </div>
                      <div>
-                        <b>Duration: </b>49 ms
+                        <b>End time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_tearDown_byClass_PASS4_row"
+            <tr id="testcases.BeforeTesting_beforeMethodTest_byClass_PASS5_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_tearDown_byClass_PASS4_details')">tearDown()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_beforeMethodTest_byClass_PASS5_details')">beforeMethodTest(public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException)</a>
                </td>
-               <td nowrap="true">11:47:31</td>
-               <td nowrap="true" align="right">171 ms
+               <td nowrap="true">20:54:23</td>
+               <td nowrap="true" align="right">0 ms
                   
                </td>
                <td nowrap="true">
@@ -559,22 +1156,356 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_tearDown_byClass_PASS4_details"
+                  <div id="testcases.BeforeTesting_beforeMethodTest_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_SpaFinder_Test_byClass_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_SpaFinder_Test_byClass_PASS6_details')">SpaFinder_Test()</a>
+               </td>
+               <td nowrap="true">20:54:23</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_SpaFinder_Test_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>SpaFinder_Test
+                     </div>
+                     <div>
+                        <b>Signature: </b>SpaFinder_Test()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:23
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_broseClose_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_broseClose_byClass_PASS7_details')">broseClose(public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException)</a>
+               </td>
+               <td nowrap="true">20:54:27</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_broseClose_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.SpaFinder_Test() throws java.net.MalformedURLException
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_beforeMethodTest_byClass_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_beforeMethodTest_byClass_PASS8_details')">beforeMethodTest(public void testcases.BeforeTesting.failingTest() throws java.lang.Exception)</a>
+               </td>
+               <td nowrap="true">20:54:27</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_beforeMethodTest_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.failingTest() throws java.lang.Exception
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_failingTest_byClass_FAIL9_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_failingTest_byClass_FAIL9_details')">failingTest()</a>
+               </td>
+               <td nowrap="true">20:54:27</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_failingTest_byClass_FAIL9_exception')">java.lang.AssertionError: 
+                     expected [true] but found [false]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_failingTest_byClass_FAIL9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>failingTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>failingTest()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_failingTest_byClass_FAIL9_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [true] but found [false]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:494)
+                        	at org.testng.Assert.assertTrue(Assert.java:42)
+                        	at org.testng.Assert.assertTrue(Assert.java:52)
+                        	at testcases.BeforeTesting.failingTest(BeforeTesting.java:40)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+                        	at org.testng.TestRunner.run(TestRunner.java:617)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+                        	at org.testng.TestNG.run(TestNG.java:1057)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1364)
+                        	at org.testng.TestNG.main(TestNG.java:1333)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testcases.BeforeTesting_closeBrowser_byClass_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_closeBrowser_byClass_PASS10_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">20:54:32</td>
+               <td nowrap="true" align="right">112 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_closeBrowser_byClass_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>112 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_broseClose_byClass_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_broseClose_byClass_PASS11_details')">broseClose(public void testcases.BeforeTesting.failingTest() throws java.lang.Exception)</a>
+               </td>
+               <td nowrap="true">20:54:32</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_broseClose_byClass_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@6442b0a6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.BeforeTesting.failingTest() throws java.lang.Exception
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.BeforeTesting_tearDown_byClass_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.BeforeTesting_tearDown_byClass_PASS12_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">20:54:32</td>
+               <td nowrap="true" align="right">509 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.BeforeTesting_tearDown_byClass_PASS12_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>tearDown
                      </div>
                      <div>
-                        <b>Signature: </b>tearDown()[pri:0, instance:testcases.TestGmail@58ceff1]
+                        <b>Signature: </b>tearDown()[pri:0, instance:testcases.BeforeTesting@6442b0a6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:31
+                        <b>Start time: </b>20:54:32
                      </div>
                      <div>
-                        <b>End time: </b>11:47:31
+                        <b>End time: </b>20:54:33
                      </div>
                      <div>
-                        <b>Duration: </b>171 ms
+                        <b>Duration: </b>509 ms
                         
                      </div>
                   </div>
@@ -586,7 +1517,7 @@
          <table class="testMethodsTable" cellpadding="0" cellspacing="0">
             <tr>
                <td colspan="4">
-                  <h3 style="display: inline;">testcases.TestGmail</h3>
+                  <h3 style="display: inline;">testcases.TestDropBox</h3>
                </td>
             </tr>
             <tr class="methodsTableHeader">
@@ -595,13 +1526,13 @@
                <td nowrap="true">Duration</td>
                <td>Exception</td>
             </tr>
-            <tr id="testcases.TestGmail_startUp_byClass_PASS1_row"
+            <tr id="testcases.TestDropBox_tearUP_byClass_PASS1_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_startUp_byClass_PASS1_details')">startUp(firefox)</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_tearUP_byClass_PASS1_details')">tearUP()</a>
                </td>
-               <td nowrap="true">11:47:20</td>
-               <td nowrap="true" align="right">16s
+               <td nowrap="true">20:54:04</td>
+               <td nowrap="true" align="right">6s
                   
                </td>
                <td nowrap="true">
@@ -611,41 +1542,79 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_startUp_byClass_PASS1_details"
+                  <div id="testcases.TestDropBox_tearUP_byClass_PASS1_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>startUp
+                        <b>Name: </b>tearUP
                      </div>
                      <div>
-                        <b>Signature: </b>startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>tearUP()[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
-                        <b>Parameters: </b>
-                        
-                        firefox
-                        
-                        
+                        <b>Start time: </b>20:54:04
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:20
+                        <b>End time: </b>20:54:11
                      </div>
                      <div>
-                        <b>End time: </b>11:47:36
-                     </div>
-                     <div>
-                        <b>Duration: </b>16s
+                        <b>Duration: </b>6s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_gmailTest_byClass_PASS2_row"
+            <tr id="testcases.TestDropBox_beforeMethodTest_byClass_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_beforeMethodTest_byClass_PASS2_details')">beforeMethodTest(public void testcases.TestDropBox.WorkStride_Test())</a>
+               </td>
+               <td nowrap="true">20:54:11</td>
+               <td nowrap="true" align="right">2 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_beforeMethodTest_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethodTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.WorkStride_Test()
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:11
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>2 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_WorkStride_Test_byClass_PASS3_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_gmailTest_byClass_PASS2_details')">gmailTest()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_WorkStride_Test_byClass_PASS3_details')">WorkStride_Test()</a>
                </td>
-               <td nowrap="true">11:47:36</td>
+               <td nowrap="true">20:54:11</td>
                <td nowrap="true" align="right">3s
                   
                </td>
@@ -656,19 +1625,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_gmailTest_byClass_PASS2_details"
+                  <div id="testcases.TestDropBox_WorkStride_Test_byClass_PASS3_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>gmailTest
+                        <b>Name: </b>WorkStride_Test
                      </div>
                      <div>
-                        <b>Signature: </b>gmailTest()[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>WorkStride_Test()[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:36
+                        <b>Start time: </b>20:54:11
                      </div>
                      <div>
-                        <b>End time: </b>11:47:39
+                        <b>End time: </b>20:54:13
                      </div>
                      <div>
                         <b>Duration: </b>3s
@@ -678,13 +1647,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_broseClose_byClass_PASS3_row"
+            <tr id="testcases.TestDropBox_broseClose_byClass_PASS4_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_broseClose_byClass_PASS3_details')">broseClose()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_broseClose_byClass_PASS4_details')">broseClose(public void testcases.TestDropBox.WorkStride_Test())</a>
                </td>
-               <td nowrap="true">11:47:39</td>
-               <td nowrap="true" align="right">56 ms
+               <td nowrap="true">20:54:13</td>
+               <td nowrap="true" align="right">1 ms
                   
                </td>
                <td nowrap="true">
@@ -694,35 +1663,42 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_broseClose_byClass_PASS3_details"
+                  <div id="testcases.TestDropBox_broseClose_byClass_PASS4_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>broseClose
                      </div>
                      <div>
-                        <b>Signature: </b>broseClose()[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:39
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.WorkStride_Test()
+                        
+                        
                      </div>
                      <div>
-                        <b>End time: </b>11:47:39
+                        <b>Start time: </b>20:54:13
                      </div>
                      <div>
-                        <b>Duration: </b>56 ms
+                        <b>End time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="testcases.TestGmail_tearDown_byClass_PASS4_row"
+            <tr id="testcases.TestDropBox_beforeMethodTest_byClass_PASS5_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('testcases.TestGmail_tearDown_byClass_PASS4_details')">tearDown()</a>
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_beforeMethodTest_byClass_PASS5_details')">beforeMethodTest(public void testcases.TestDropBox.facebook_Test())</a>
                </td>
-               <td nowrap="true">11:47:39</td>
-               <td nowrap="true" align="right">211 ms
+               <td nowrap="true">20:54:13</td>
+               <td nowrap="true" align="right">1 ms
                   
                </td>
                <td nowrap="true">
@@ -732,22 +1708,150 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="testcases.TestGmail_tearDown_byClass_PASS4_details"
+                  <div id="testcases.TestDropBox_beforeMethodTest_byClass_PASS5_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>tearDown
+                        <b>Name: </b>beforeMethodTest
                      </div>
                      <div>
-                        <b>Signature: </b>tearDown()[pri:0, instance:testcases.TestGmail@3796751b]
+                        <b>Signature: </b>beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
                      </div>
                      <div>
-                        <b>Start time: </b>11:47:39
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.facebook_Test()
+                        
+                        
                      </div>
                      <div>
-                        <b>End time: </b>11:47:39
+                        <b>Start time: </b>20:54:13
                      </div>
                      <div>
-                        <b>Duration: </b>211 ms
+                        <b>End time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_facebook_Test_byClass_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_facebook_Test_byClass_PASS6_details')">facebook_Test()</a>
+               </td>
+               <td nowrap="true">20:54:13</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_facebook_Test_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>facebook_Test
+                     </div>
+                     <div>
+                        <b>Signature: </b>facebook_Test()[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:13
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_broseClose_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_broseClose_byClass_PASS7_details')">broseClose(public void testcases.TestDropBox.facebook_Test())</a>
+               </td>
+               <td nowrap="true">20:54:14</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_broseClose_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>broseClose
+                     </div>
+                     <div>
+                        <b>Signature: </b>broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        public void testcases.TestDropBox.facebook_Test()
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.TestDropBox_closeBrowser_byClass_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.TestDropBox_closeBrowser_byClass_PASS8_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">20:54:14</td>
+               <td nowrap="true" align="right">169 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.TestDropBox_closeBrowser_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.TestDropBox@4c203ea1]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:54:14
+                     </div>
+                     <div>
+                        <b>End time: </b>20:54:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>169 ms
                         
                      </div>
                   </div>

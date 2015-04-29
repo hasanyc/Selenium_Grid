@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import org.apache.log4j.Logger;
 
-public class Log4j{
+public class Log4j {
 
 	public static Properties prop;
 	 public static Logger APPLICATION_LOG = Logger.getLogger("Automation-Logs");

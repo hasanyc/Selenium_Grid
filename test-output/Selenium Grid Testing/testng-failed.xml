@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Selenium Grid Testing]">
-  <listeners>
-    <listener class-name="learnListener.BaseListener"/>
-  </listeners>
-  <test name="Test Listener(failed)">
+  <test name="Test Drop Box Class(failed)">
     <classes>
-      <class name="learnListener.TestingListener">
+      <class name="testcases.TestGmail">
         <methods>
-          <include name="tearUP"/>
-          <include name="tearDown"/>
-          <include name="iAmFailing"/>
+          <include name="beforeTest"/>
+          <include name="gmailTest"/>
         </methods>
-      </class> <!-- learnListener.TestingListener -->
+      </class> <!-- testcases.TestGmail -->
     </classes>
-  </test> <!-- Test Listener(failed) -->
+  </test> <!-- Test Drop Box Class(failed) -->
 </suite> <!-- Failed suite [Selenium Grid Testing] -->

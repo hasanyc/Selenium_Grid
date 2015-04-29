@@ -1,33 +1,26 @@
 package testcases;
 
-import java.net.MalformedURLException;
-
 import org.testng.annotations.Test;
-
-import basePack.GridBase;
+import basePack.BaseClass;
 import basePack.Log4j;
 
-public class TestDropBox extends GridBase{
+public class TestDropBox extends BaseClass{
 
 	//private WebDriver driver = new FirefoxDriver();
 	@Test
-	public void dropBox() throws MalformedURLException{
-		
-		Log4j.APPLICATION_LOG.debug("Dropbox Test started");
-		driver.get("http://www.dropbox.com");
-		System.out.println (driver.getTitle());
-		Log4j.APPLICATION_LOG.debug("Dropbox Test E-N-D-E-D");
-		
+	public void WorkStride_Test(){
+
+		driver.get("http://www.workstride.com");
+		Log4j.APPLICATION_LOG.debug("The page title is: " + driver.getTitle());
+
 	}
-	
-	
+
+
 	@Test
-	public void facebookTest(){
-		Log4j.APPLICATION_LOG.debug("Facebook Test Started");
+	public void facebook_Test(){
 		driver.get ("http://www.facebook.com");
-		System.out.println (driver.getTitle());
-		Log4j.APPLICATION_LOG.debug("Facebook Test E-N-D-E-D");
-	
-}
+		Log4j.APPLICATION_LOG.debug("The page title is: " +driver.getTitle());
+
+	}
 
 }

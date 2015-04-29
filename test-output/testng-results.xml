@@ -2,76 +2,106 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11165" started-at="2015-04-23T22:39:15Z" finished-at="2015-04-23T22:39:26Z">
+  <suite name="Selenium Grid Testing" duration-ms="16539" started-at="2015-04-29T13:59:21Z" finished-at="2015-04-29T13:59:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11165" started-at="2015-04-23T22:39:15Z" finished-at="2015-04-23T22:39:26Z">
-      <class name="testcases.BeforeTesting">
-        <test-method status="PASS" signature="tearUP()[pri:0, instance:testcases.BeforeTesting@340f438e]" name="tearUP" is-config="true" duration-ms="6569" started-at="2015-04-23T18:39:15Z" finished-at="2015-04-23T18:39:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUP -->
-        <test-method status="PASS" signature="beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@340f438e]" name="beforeMethodTest" is-config="true" duration-ms="2" started-at="2015-04-23T18:39:21Z" finished-at="2015-04-23T18:39:21Z">
+    <test name="Gmail testing using Chrome" duration-ms="7886" started-at="2015-04-29T13:59:21Z" finished-at="2015-04-29T13:59:29Z">
+      <class name="testcases.TestGmail">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.TestGmail@59a6e353]" name="beforeTest" is-config="true" duration-ms="68" started-at="2015-04-29T09:59:21Z" finished-at="2015-04-29T09:59:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.BeforeTesting.gmailTest() throws java.net.MalformedURLException]]>
+                <![CDATA[org.testng.TestRunner@77f80c04]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.BeforeTesting@340f438e]" name="gmailTest" duration-ms="1866" started-at="2015-04-23T18:39:21Z" description="Gmail Test" finished-at="2015-04-23T18:39:23Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@59a6e353]" name="startUp" is-config="true" duration-ms="1928" started-at="2015-04-29T09:59:21Z" finished-at="2015-04-29T09:59:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@59a6e353]" name="gmailTest" duration-ms="2825" started-at="2015-04-29T09:59:23Z" finished-at="2015-04-29T09:59:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gmailTest -->
-        <test-method status="PASS" signature="broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@340f438e]" name="broseClose" is-config="true" duration-ms="1" started-at="2015-04-23T18:39:23Z" finished-at="2015-04-23T18:39:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.BeforeTesting.gmailTest() throws java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestGmail@59a6e353]" name="broseClose" is-config="true" duration-ms="1958" started-at="2015-04-29T09:59:26Z" finished-at="2015-04-29T09:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="beforeMethodTest(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@340f438e]" name="beforeMethodTest" is-config="true" duration-ms="1" started-at="2015-04-23T18:39:23Z" finished-at="2015-04-23T18:39:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.BeforeTesting.hasanTest() throws java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method status="PASS" signature="hasanTest()[pri:0, instance:testcases.BeforeTesting@340f438e]" name="hasanTest" duration-ms="1913" started-at="2015-04-23T18:39:23Z" finished-at="2015-04-23T18:39:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hasanTest -->
-        <test-method status="PASS" signature="broseClose(java.lang.reflect.Method)[pri:0, instance:testcases.BeforeTesting@340f438e]" name="broseClose" is-config="true" duration-ms="1" started-at="2015-04-23T18:39:25Z" finished-at="2015-04-23T18:39:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.BeforeTesting.hasanTest() throws java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- broseClose -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.BeforeTesting@340f438e]" name="closeBrowser" is-config="true" duration-ms="803" started-at="2015-04-23T18:39:25Z" finished-at="2015-04-23T18:39:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.BeforeTesting@340f438e]" name="tearDown" is-config="true" duration-ms="246" started-at="2015-04-23T18:39:26Z" finished-at="2015-04-23T18:39:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@59a6e353]" name="tearDown" is-config="true" duration-ms="1099" started-at="2015-04-29T09:59:28Z" finished-at="2015-04-29T09:59:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.BeforeTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcases.TestGmail@59a6e353]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-04-29T09:59:29Z" finished-at="2015-04-29T09:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f80c04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TestGmail -->
+    </test> <!-- Gmail testing using Chrome -->
+    <test name="Gmail testing using Firefox" duration-ms="8620" started-at="2015-04-29T13:59:29Z" finished-at="2015-04-29T13:59:38Z">
+      <class name="testcases.TestGmail">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.TestGmail@2ed94a8b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-04-29T09:59:29Z" finished-at="2015-04-29T09:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58ea606c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:testcases.TestGmail@2ed94a8b]" name="startUp" is-config="true" duration-ms="6156" started-at="2015-04-29T09:59:29Z" finished-at="2015-04-29T09:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:testcases.TestGmail@2ed94a8b]" name="gmailTest" duration-ms="2135" started-at="2015-04-29T09:59:35Z" finished-at="2015-04-29T09:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTest -->
+        <test-method status="PASS" signature="broseClose()[pri:0, instance:testcases.TestGmail@2ed94a8b]" name="broseClose" is-config="true" duration-ms="152" started-at="2015-04-29T09:59:37Z" finished-at="2015-04-29T09:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broseClose -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestGmail@2ed94a8b]" name="tearDown" is-config="true" duration-ms="174" started-at="2015-04-29T09:59:37Z" finished-at="2015-04-29T09:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcases.TestGmail@2ed94a8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-04-29T09:59:38Z" finished-at="2015-04-29T09:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58ea606c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TestGmail -->
+    </test> <!-- Gmail testing using Firefox -->
+  </suite> <!-- Selenium Grid Testing -->
 </testng-results>

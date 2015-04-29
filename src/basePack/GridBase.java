@@ -1,11 +1,13 @@
 package basePack;
 
 import java.net.MalformedURLException;
+import java.net.URL;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -13,8 +15,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-
-import java.lang.reflect.Method;
 
 public class GridBase {
 
@@ -42,8 +42,8 @@ public class GridBase {
 			cap.setPlatform(Platform.WINDOWS);
 		}
 		// Remote WebDriver
-		driver = new FirefoxDriver();
-		//driver = new RemoteWebDriver(new URL ("http://localhost:4444/wd/hub"), cap); // Local PC - HUB PC
+		//driver = new FirefoxDriver();
+		driver = new RemoteWebDriver(new URL ("http://localhost:4444/wd/hub"), cap); // Local PC - HUB PC
 		//driver = new RemoteWebDriver(new URL ("http://remotePC-IP:NODE-#/wd/hub"), cap);
 
 	}
@@ -52,7 +52,7 @@ public class GridBase {
     public void beforeTest (final ITestContext testContext) {
         //String testName = method.getName(); 
         Log4j.APPLICATION_LOG.debug("=======================================================================");
-        Log4j.APPLICATION_LOG.debug("Test Method is: ==>" +testContext.getName() + " just STARTED");
+        Log4j.APPLICATION_LOG.debug("Test Method is: ==> " +testContext.getName() + " just STARTED");
     }
 	
 	@AfterTest
@@ -60,7 +60,7 @@ public class GridBase {
     
         //String testName = method.getName(); 
         Log4j.APPLICATION_LOG.debug("=======================================================================");
-        Log4j.APPLICATION_LOG.debug("Test Method is: ==>" +testContext.getName()+ " just ENDED!!");
+        Log4j.APPLICATION_LOG.debug("Test Method is: ==> " +testContext.getName()+ " just ENDED!!");
         Log4j.APPLICATION_LOG.debug("=======================================================================");
     }
 	
